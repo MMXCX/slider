@@ -1,0 +1,36 @@
+li {
+    padding: 10px;
+}
+
+.hot-item:hover {
+    background-color: darkolivegreen;
+}
+
+.realty-item:hover {
+    background-color: cadetblue;
+}
+
+.hot-footer {
+    color: darkolivegreen;
+}
+
+.realty-footer {
+    color: cadetblue;
+}
+
+a:hover {
+    color: white;
+}
+
+h2 {
+    color: white;
+    padding: 10px;
+}
+
+.hot-header {
+    background-color: darkolivegreen;
+}
+
+.realty-header {
+    background-color: cadetblue;
+}
