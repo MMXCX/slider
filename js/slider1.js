@@ -7,6 +7,7 @@ let slider1 = {
 
     init: function () {
         //initialize elements
+        let as = 3;
         let el = document.querySelector('#mmxcx-slider1');
         this.showPrevButton = el.querySelector('.prev-button');
         this.showNextButton = el.querySelector('.next-button');
