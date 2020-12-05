@@ -1,9 +1,9 @@
 let slider2 = {
     imageUrls: [],
     currentImageIndex: 0,
-    showPrevButton: null, //document.querySelector('.prev-button'),
-    showNextButton: null, //document.querySelector('.next-button'),
-    slideImage: null, //document.querySelector('.img-slider'),
+    showPrevButton: null,
+    showNextButton: null,
+    slideImage: null,
 
     init: function () {
         //initialize elements

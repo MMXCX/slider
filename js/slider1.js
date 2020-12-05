@@ -1,13 +1,12 @@
 let slider1 = {
     imageUrls: [],
     currentImageIndex: 0,
-    showPrevButton: null, //document.querySelector('.prev-button'),
-    showNextButton: null, //document.querySelector('.next-button'),
-    slideImage: null, //document.querySelector('.img-slider'),
+    showPrevButton: null,
+    showNextButton: null,
+    slideImage: null,
 
     init: function () {
         //initialize elements
-        let as = 3;
         let el = document.querySelector('#mmxcx-slider1');
         this.showPrevButton = el.querySelector('.prev-button');
         this.showNextButton = el.querySelector('.next-button');
